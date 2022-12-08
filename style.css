@@ -3,32 +3,6 @@ html, body {
     width: 100%;
   }
 
-
-/* .table-container {
-  height: 500px;
-  width: 100%;
-  border: 2px solid black;
-} */
-
-#results {
-  width: 100%;
-  /* border: 1px solid black; */
-  /* height: 100%; */
-}
-
-th {
-  border: 0.5px solid rgb(172, 170, 170, 0.7);
+th, td {
   text-align: center;
-  width: 33%;
-}
-
-td {
-  text-align: center;
-  border: 1px solid rgb(172, 170, 170, 0.7);
-  height: 20px;
-  
-}
-
-tr {
-  width: 100%;
 }
