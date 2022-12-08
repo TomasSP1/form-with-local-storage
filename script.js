@@ -53,6 +53,10 @@ my_insertProduct.addEventListener('click', (e) => {
       local_storage_array.push(localObject);
       localStorage.setItem("cart", JSON.stringify(local_storage_array));
 
+      my_productCode.value = '';
+      my_productName.value = '';
+      my_productQuantity.value = '';
+
     } else {
 
         if (my_productCode.value === '') {
